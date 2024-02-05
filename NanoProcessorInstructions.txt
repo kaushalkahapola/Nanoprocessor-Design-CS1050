@@ -1,0 +1,8 @@
+Reset Button => Package_Pin U10
+OverFlow => Package_Pin P1
+Zero => Package_Pin L1
+LED => 
+Package_Pin U16,
+Package_Pin E19,
+Package_Pin U19,
+Package_Pin V19

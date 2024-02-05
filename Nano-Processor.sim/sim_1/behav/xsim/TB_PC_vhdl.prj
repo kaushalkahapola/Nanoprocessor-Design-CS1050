@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Nano-Processor.srcs/sources_1/new/Adder_3.vhd" \
+"../../../../Nano-Processor.srcs/sources_1/new/FA.vhd" \
+"../../../../Nano-Processor.srcs/sources_1/new/HA.vhd" \
+"../../../../Nano-Processor.srcs/sources_1/new/MUX_2_way_3.vhd" \
+"../../../../Nano-Processor.srcs/sources_1/new/PC_Counter.vhd" \
+"../../../../Nano-Processor.srcs/sources_1/new/PC_Register.vhd" \
+"../../../../Nano-Processor.srcs/sim_1/new/TB_PC.vhd" \
+
+# Do not sort compile order
+nosort
