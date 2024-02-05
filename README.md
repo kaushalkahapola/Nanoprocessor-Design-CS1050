@@ -40,7 +40,7 @@ The project involves the design and development of a 4-bit processor capable of 
 2. **Install Dependencies:**
   Navigate to the project directory using the terminal or command prompt:
   
-  ```bash
-  cd NanoprocessorDesign
-  npm install
+     ```bash
+     cd NanoprocessorDesign
+     npm install
 
