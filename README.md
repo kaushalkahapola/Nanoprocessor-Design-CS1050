@@ -1,46 +1,78 @@
-# Nanoprocessor Design Competition
+# Nanoprocessor Design Project
 
-## Overview
-Nanoprocessor Design Competition is a collaborative project undertaken by [Your Team Name] for the CS1050 Computer Organization and Digital Design course at the University of Moratuwa.
+This repository contains VHDL files for the Nanoprocessor Design, a 4-bit processor capable of basic arithmetic operations. The processor is designed to be implemented on a Xilinx Vivado platform.
 
-## Project Description
-The project involves the design and development of a 4-bit processor capable of executing 4 instructions. The goal is to create a simple microprocessor (nanoprocessor) with various components like a 4-bit Add/Subtract unit, a 3-bit adder, a 3-bit Program Counter, k-way b-bit multiplexers, a Register Bank, Program ROM, and an Instruction Decoder.
+**Warning:** Do not add a Vivado project folder to this repository. Only VHDL files are allowed.
 
-## Features
-- 4-bit Arithmetic Unit
-- 3-bit Adder
-- 3-bit Program Counter
-- k-way b-bit Multiplexers
-- Register Bank
+## Technologies Used
+
+- VHDL
+- Xilinx Vivado
+
+## Contents
+
+### Assembly & Machine Code
+
+1. **Assembly Code**
+2. **Machine Code**
+
+### VHDL Code
+
+#### Adders
+- Half Adder
+- Full Adder
+- 3-bit Ripple Carry Adder
+- 4-bit Ripple Carry Adder
+- 4-bit Adder Subtractor
+
+#### Address Selector
+- Program Counter
+- PC Incrementer
 - Program ROM
+
+#### D Flip Flop
+
+#### Register
+- Register Bank
+
+#### Arithmetic Unit
+
+#### Decoders
+- 2 to 4 Decoder
+- 3 to 8 Decoder
+
+#### Multiplexers
+- 2 Way N Bit Multiplexer
+- 8 to 1 Multiplexer
+- 8 Way 4 Bit Multiplexer
+
+#### Operand Selector
 - Instruction Decoder
+- Load Selector
+- Seven Segment Display Lookup Table
 
-## Build and Test
-1. **Design and Test Individual Components:**
-   - Follow the steps outlined in the lab manual to design and test each component.
-   - Collaborate with team members to ensure each component functions correctly.
+#### Slow Clock
+- Nanoprocessor
 
-2. **Connect Components for Top-Level Design:**
-   - Integrate individual components to form the top-level design of the nanoprocessor.
+### Simulation Files
 
-## Run Simulation
-- Use simulation tools to verify the functionality of the nanoprocessor.
-- Ensure that each component interacts correctly within the overall design.
-
-## Upload to the Development Board
-- Implement the design on the BASYS 3 development board.
-- Follow hardware-specific guidelines for uploading the nanoprocessor design.
-
+- Instruction Decoder Simulation
+- 2 Way 4 Bit Multiplexer Simulation
+- 8 Way 4 Bit Multiplexer Simulation
+- Program Counter Simulation
+- Adder Subtractor Simulation
+- Register Bank Simulation
+- Nanoprocessor Simulation
 
 ## Getting Started
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/[your-username]/NanoprocessorDesign.git
 
-2. **Install Dependencies:**
-  Navigate to the project directory using the terminal or command prompt:
-  
-     ```bash
-     cd NanoprocessorDesign
-     npm install
+To use the VHDL files in this repository, follow these steps:
 
+1. Clone the repository to your local machine.
+2. Open the Vivado software and create a new project.
+3. Add the VHDL files from the cloned repository to your project.
+4. Customize and configure the design as needed.
+5. Compile and synthesize the design in Vivado.
+6. Program the target FPGA or generate the required output files.
+
+For detailed instructions on using Vivado and working with VHDL files, refer to the Vivado documentation.
